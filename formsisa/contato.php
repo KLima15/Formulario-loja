@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <img src="LakerShow.gif" width="1432" height="150"> <br>
+    <header>
+        <!DOCTYPE html>
+        <html lang="pt-br">
+        
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Menu Horizontal</title>
+            <link rel="stylesheet" href="css/style.css">
+        </head>
+        
+        <body>
+        
+            <nav id="menu-h">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a></li>
+        
+                    <li><a href="sobre.html">Sobre</a></li>
+                    
+                    <li><a href="loja.html">Produtos</a></li>
+                    
+                    <li><a href="contato.html">Contato</a></li>
+                    
+                    <li><a href="politicas.html">Políticas</a></li>
+                </ul>
+            </nav>
+        
+        </body>
+        
+        </html>
+       
+          </header>
+          <br>
+             
+              <p class="texto">Entre em contato conosco através dos seguintes meios:<br>
+                <br>
+                -E-mail: contato@LakerShow.com<br>
+                <br>
+                -Telefone: (11) 8765-4321<br>
+                <br>
+                -Endereço: Av. Paulista, 1203 - São Paulo
+            </p class="texto">
+
+              <footer>
+                <p>&copy; 2023 LakerShow Todos os direitos reservados.</p>
+              </footer>
+        
+        </body>
+        </html>

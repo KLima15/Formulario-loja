@@ -1,0 +1,178 @@
+
+    header {
+        background-color:rebeccapurple;
+        color:rgb(47, 58, 1);
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    body {
+         font-family: Arial, sans-serif;
+         background-color: black;
+         margin: 0;
+         padding: 0;
+         text-align: center;
+    }
+
+    div.body-content{
+  /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+         margin-bottom: 40px;
+         }
+
+         label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 3px solid rebeccapurple;
+    border-radius:1em;
+    color: rgb(233, 199, 8);
+}
+    
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    background-color: rebeccapurple;
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #000;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: yellow;
+}
+
+
+h1 {
+    margin: 0;
+    text-align: center;
+    color: honeydew;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color:honeydew;
+    text-align: center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color:honeydew;
+    text-align: center;
+}
+
+.texto {
+    text-align: justify;
+}
+
+/* Estilos para o conteúdo principal */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    color: #fff;
+  }
+  
+  .product {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .product img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .product-info {
+    flex: 1;
+    color: honeydew;
+  }
+  
+  .product-title {
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: honeydew;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: honeydew;
+  }
+  
+  .product-description {
+    margin-bottom: 10px;
+    color: honeydew;
+  }
+  
+  .product-button {
+    background-color: #fff700;
+    color: #aa00ff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+ 
+  
+footer {
+    background-color:rebeccapurple;
+    color: rgb(206, 255, 206);
+    padding:10px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+}
